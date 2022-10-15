@@ -1,0 +1,137 @@
+/*font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-family: inherit;
+}
+.header {
+  background: #373a3c;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 3px solid #777;
+}
+.container-header {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.htader-logo {
+}
+.menu {
+}
+.menu-body {
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+}
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: #fff;
+  text-shadow: 0 0 5px green;
+}
+.mein {
+}
+.promo {
+  background: url(../img/Star-Wars-Battlefront-II-combat.jpg) no-repeat center /
+    cover;
+  height: calc(100vh - 63px);
+}
+.conteiner-promo {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.promo_content {
+}
+.promo_title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 134px;
+}
+
+.promo_title span {
+  display: block;
+  font-size: 24px;
+  line-height: 42px;
+}
+.block-promo-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.promo-button {
+}
+.footer {
+}
+.promo-button {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.promo-button:hover {
+  background: linear-gradient(180deg, green 0%, green 100%);
+}
+.best {
+  padding: 34px 0 165px 0;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+.best-logo {
+  display: block;
+  margin: 0 auto;
+}
+.best-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.best-title span {
+  display: block;
+}
+
+.conteiner {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.best-info {
+  display: flex;
+  justify-content: space-between;
+}
